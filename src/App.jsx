@@ -47,19 +47,91 @@ const education = [
   },
 ]
 
-const software = [
-  'Microsoft Word',
-  'Microsoft Excel',
-  'Google Classroom',
-  'Canva',
-  'Genially',
-  'Educaplay',
-  'Zoom',
-  'Google Meet',
-  'Impresora',
-  'Escáner',
-  'Correo electrónico',
-  'Sistema LAM',
+const softwareTools = [
+  {
+    name: 'Microsoft Word',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M7 3.5h7.3L18.5 7v12.5A1.5 1.5 0 0 1 17 21H7A1.5 1.5 0 0 1 5.5 19.5v-14A1.5 1.5 0 0 1 7 3.5Z" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+        <path d="M8.2 11.4h7.6M8.2 14.5h7.6M8.2 17.6h5.2" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+        <path d="M9.7 8.4h3.8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Microsoft Excel',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M7 3.5h7.3L18.5 7v12.5A1.5 1.5 0 0 1 17 21H7A1.5 1.5 0 0 1 5.5 19.5v-14A1.5 1.5 0 0 1 7 3.5Z" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+        <path d="M8.2 9.8h7.6M8.2 13.2h7.6M8.2 16.6h7.6" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+        <path d="M11 8v9M13 8v9" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Google Classroom',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4.5 6.8A2.3 2.3 0 0 1 6.8 4.5h10.4a2.3 2.3 0 0 1 2.3 2.3v8.4a2.3 2.3 0 0 1-2.3 2.3H6.8a2.3 2.3 0 0 1-2.3-2.3V6.8Z" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <path d="M9.1 10.1a2.1 2.1 0 1 1 4.2 0v.8a2.1 2.1 0 0 1-4.2 0v-.8Zm-2.1 5.4c0-1.7 1.5-3.1 3.3-3.1h3.4c1.8 0 3.3 1.4 3.3 3.1" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Canva',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3.8c2.8 0 5 2.1 5 4.8v1.2c0 2.2-1.4 4.1-3.5 4.8l-.9.3v5.1h-1.2v-5.1l-.9-.3A4.5 4.5 0 0 1 7 9.8V8.6c0-2.7 2.2-4.8 5-4.8Z" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+        <circle cx="12" cy="9.3" r="1.5" fill="currentColor" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Genially',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3.8 15.2 9l5.8 2.8-5.8 2.7L12 20.2 8.8 14.5 3 11.8 8.8 9 12 3.8Z" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Educaplay',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="6" y="6.5" width="12" height="11" rx="2.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <path d="M9.2 9.8h5.6M9.2 12h5.6M9.2 14.2h3.4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+        <circle cx="17.2" cy="8.5" r="1.4" fill="currentColor" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Zoom',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3.5" y="6.5" width="11.5" height="11" rx="2.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <path d="M15 9.2 20 7v10l-5-2.2v-5.6Z" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Google Meet',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3.5" y="6.5" width="11.5" height="11" rx="2.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <path d="M15 9.2 20 7v10l-5-2.2v-5.6Z" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+        <circle cx="9" cy="12" r="2.3" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Sistema LAM',
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5.5 8.3A2.8 2.8 0 0 1 8.3 5.5h7.4a2.8 2.8 0 0 1 2.8 2.8v7.4a2.8 2.8 0 0 1-2.8 2.8H8.3a2.8 2.8 0 0 1-2.8-2.8V8.3Z" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <path d="M8.5 8.8h7M8.5 12h7M8.5 15.2h4.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      </svg>
+    ),
+  },
 ]
 
 const strengths = [
@@ -206,7 +278,7 @@ function App() {
             <div className="about-grid">
               <article className="card about-story">
                 <p>
-                  Soy Salma Naomi, egresada de la Licenciatura en Educación Primaria con gran
+                  Soy Salma Naomi Santiago Zacarias, egresada de la Licenciatura en Educación Primaria con gran
                   vocación por enseñar y acompañar a niñas y niños en su proceso de aprendizaje.
                 </p>
                 <p>
@@ -281,11 +353,12 @@ function App() {
             <div className="skills-layout">
               <div className="card software-card">
                 <h3>Herramientas de software</h3>
-                <div className="tag-grid">
-                  {software.map((tool) => (
-                    <span key={tool} className="tag">
-                      {tool}
-                    </span>
+                <div className="software-grid">
+                  {softwareTools.map(({ name, icon }) => (
+                    <div key={name} className="software-item">
+                      <div className="software-icon">{icon}</div>
+                      <span>{name}</span>
+                    </div>
                   ))}
                 </div>
               </div>
