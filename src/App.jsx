@@ -194,9 +194,11 @@ function App() {
             ))}
           </nav>
 
-          <a href="#contact" className="button button-primary header-button">
-            Contacto
-          </a>
+          <div className="header-actions">
+            <a href="#contact" className="button button-primary header-button">
+              Contacto
+            </a>
+          </div>
         </div>
       </header>
 
@@ -243,7 +245,7 @@ function App() {
               <div className="portrait-card">
                 <div className="avatar-wrapper">
                   <div className="avatar">
-                    <span>SN</span>
+                    <img src="/selfie.jpg" alt="Salma Naomi" />
                   </div>
                 </div>
 
