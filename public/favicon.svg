@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Salma Naomi favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#7eaec9" />
+      <stop offset="100%" stop-color="#a9d9b4" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#fffaf3" />
+  <rect x="9" y="9" width="110" height="110" rx="24" fill="url(#bg)" />
+  <path d="M34 90V38h14v17.5L57.5 38h18l-16.5 18.5L76 90H57.5L47 69.5 41.5 90H34Z" fill="#fff" />
+  <circle cx="87" cy="40" r="10" fill="#f9e6ac" />
+</svg>
